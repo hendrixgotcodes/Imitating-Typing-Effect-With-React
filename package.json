@@ -1,6 +1,7 @@
 {
-  "name": "my_portfolio",
+  "name": "imitating_typing_effect_with_react",
   "version": "0.1.0",
+  "author": "Samuel Opoku Asare",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

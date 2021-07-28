@@ -11,6 +11,8 @@ function App() {
   const [isReversing, setIsReversing] = useState(false)
   const [showCaret, setShowCaret] = useState(true)
 
+
+  //Caret
   useEffect(() => {
 
     const timeout2 = setTimeout(() => {
@@ -25,6 +27,7 @@ function App() {
 
 
   }, [showCaret]);
+
 
   useEffect(() => {
 
@@ -58,7 +61,7 @@ function App() {
     const timeout = setTimeout(() => {
       //move on to the next letter of the current word (if reversing, move on to the previous letter)
       setCurrentLetter((prev) => prev + (isReversing ? -1 : 1));
-    }, 200);
+    }, 150);
      
     return () => clearTimeout(timeout);
 
